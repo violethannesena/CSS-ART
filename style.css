@@ -1,0 +1,49 @@
+
+
+:root {
+    --my-color: #3498db; /* Define custom color variable */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4e427e; /* Set background color */
+}
+
+.container {
+    position: relative;
+}
+
+/* Circle */
+.circle {
+    width: 500px;
+    height: 200px;
+    background-color: #93cbaa; /* Set circle background color */
+    border-radius: 50%; /* Create a circle */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    opacity: 0.7; /* Add transparency */
+}
+
+/* Rectangle */
+.rectangle {
+    width: 250px;
+    height: 500px;
+    background-color: #e74c3c; /* Set rectangle background color */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    opacity: 0.7; /* Add transparency */
+}
+
+/* Triangle */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 530px solid transparent;
+    border-bottom: 100px solid #f39c12; /* Set triangle background color */
+   
